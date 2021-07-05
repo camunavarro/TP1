@@ -1,0 +1,6 @@
+# Escribir un programa que lea un entero positivo, n, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta n. La suma de los
+n primeros enteros positivos puede ser calculada de la siguiente forma: 𝑆𝑢𝑚𝑎 𝑑𝑒 𝑡𝑜𝑑𝑜𝑠 𝑙𝑜𝑠 𝑛𝑢𝑚𝑒𝑟𝑜𝑠 = 𝑛(𝑛 + 1)
+
+entero_1 = int(input("Inserte numero entero: "))
+suma_n = (entero_1 * (entero_1 + 1)) /2
+print (suma_n)
