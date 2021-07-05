@@ -1,0 +1,9 @@
+# Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la
+frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales. Nota: la forma de redondear es usar la función
+round(NumeroConPuntoDecimal, CantidaDeDigitos). Ejemplo de uso: variable = round(3.13234,1) nos da que variable es igual a 3.1 Nota2: el índice de masa corporal se calcula como:
+𝑝𝑒𝑠𝑜 𝑎𝑙𝑡𝑢𝑟𝑎2
+
+weight = float(input("Introduzca peso (kg): "))
+height = float(input("Introduzca altura (cm): "))
+imc = round(float(weight/(height*2)),1)
+print ("Tu indice de masa corporal es de " + str(imc))
