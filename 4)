@@ -1,1 +1,4 @@
+# Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética (3+2/2𝑥5)2
+Nota: la potenciación se logra con el operador **
 
+print (int( ( (3+2)/ (2*5) )**2))
